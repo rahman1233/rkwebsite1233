@@ -1,0 +1,87 @@
+body{
+    font-family:sans-serif;
+    background-image: url(img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Sign-box{
+    background-position: center;
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 560px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    color: darkgreen;
+}
+h4{
+    text-align: center;
+    color: rebeccapurple;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type='button']{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para-2{
+    color: #22e6b5;
+}
+input[type='text']{
+    border-color: aqua;
+    border-style: groove;
+}
+input[type='email']{
+    border-color: aqua;
+}
+input[type='password']{
+    border-color: aqua;
+}
+a{
+    color: fuchsia;
+}
